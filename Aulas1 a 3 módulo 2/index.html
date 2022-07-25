@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title> Curso de Javascript </title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <!--<h1 id="titulo" onmouseover="console.log('Passou o mouse')"> Seja bem vindo(a) </h1>
+    ao passar o mouse em cima do título ele mostra no console a quantidade de vezes que isso foi feito-->
+
+    <h1 id="titulo"> Seja bem vindo(a) </h1> <!--onmouseover="console.log('Passou o mouse')"  /  class = "azul"-->
+
+    <input onkeyup="digitou(event)" id="campo" type="text" name="usuario" value="Nome do usuário"/>
+
+    <button onclick="azul()"> Azul </button>
+    <button onclick="vermelho()"> Vermelho </button>
+    <button onclick="verde()"> Verde </button>
+
+    <div id="telefone"> 551155555552 </div>
+    <button onclick="mostrarTelefone(this)"> Mostrar telefone</button>
+
+   <!--- <button onclick="document.getElementById('titulo').innerHTML = 'Texto 2'"> Clique em mim </button> 
+    altera o texto diretamente no html -->
+
+    <!--<button onclick="this.innerHTML='clicou'"> Clique em mim </button>
+    altera o que está escrito no botão -->
+
+    <button onclick="clicou()"> Clique em mim </button>
+
+    <script src="script.js"> </script>
+</body>
+</html>
